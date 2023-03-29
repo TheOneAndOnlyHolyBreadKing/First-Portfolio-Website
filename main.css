@@ -12,3 +12,42 @@ box-sizing: border-box;
     background-size: cover;
     background-position: center;
 }
+nav {
+    justify-content: space-between;
+    display: flex;
+    padding-top: ;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo {
+    color: aliceblue;
+    font-size: 40px;
+    cursor: pointer;
+}
+span {
+    color: rgb(153, 36, 36);
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+nav ul li a {
+    color: rgb(45, 153, 59);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: rgb(153, 36, 36);
+}
+.btn {
+    font-size: 23px;
+    color: black;
+    ;
+}
+.btn:hover {
+    color: rgb(153, 36, 36);
+}
