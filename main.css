@@ -45,9 +45,15 @@ nav ul li a:hover {
 }
 .btn {
     font-size: 23px;
-    color: black;
-    ;
+    color: rgb(255, 255, 255);
+    border:  solid transparent;
+    background-color: rgb(219, 21, 54) ;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    transition: .4s;
 }
 .btn:hover {
-    color: rgb(153, 36, 36);
+    transform: scale(1.2);
 }
