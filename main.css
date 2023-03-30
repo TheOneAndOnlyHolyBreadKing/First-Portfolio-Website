@@ -15,7 +15,7 @@ box-sizing: border-box;
 nav {
     justify-content: space-between;
     display: flex;
-    padding-top: ;
+   
     align-items: center;
     padding-top: 15px;
     padding-left: 8%;
@@ -57,3 +57,79 @@ nav ul li a:hover {
 .btn:hover {
     transform: scale(1.2);
 }
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);   
+}
+h1 {
+    color: rgb(153, 36, 36);
+    font-size: 34px;
+    margin:  20px 0px 20px;
+}
+h3 {
+    color:aliceblue ;
+    padding-left: 20px;
+    font-size: 18px;
+}
+h4 {
+    color:aliceblue;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.newsletter form input:first-child {
+    border: 2px solid rgb(184, 39, 39);
+    display: inline-block;
+    border-radius: 10px;
+}
+.formname{
+    border: 2px solid rgb(184, 39, 39);
+    display: inline-block;
+    border-radius: 10px;
+}
+.submit-btn {
+    color:aliceblue;
+    background-color: rgb(219, 21, 54);
+    border-radius: 10px;
+    padding: 3px 3px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .4s;
+    border-radius: 10px;
+    outline: none;
+    display: inline-block;
+    box-shadow: 0px 0px 6px 6px rgba(255, 255, 255, 0.541), 0px 0px 40px 6px rgb(0, 0, 0);
+
+    
+}
+.submit-btn:hover {
+    transform: scale(1.1);
+
+}
+.about-me {
+    background-color:  #0b142e;
+    padding: 50px 0px;
+    padding-left: 7%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.about-main h2 {
+    font-size: 40px;
+}
+.about-para {
+width: 550px;
+}
+.about-me img {
+    height: auto;
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+
+    
