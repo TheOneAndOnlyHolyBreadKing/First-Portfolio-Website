@@ -129,6 +129,40 @@ width: 550px;
     width: 250px;
     border-radius: 10px;
 }
+.services-main {
+    background-color:  #0b142e;
+    padding: 200px 0px;
+}
+.services-main h2 {
+    font-size: 40px;
+    padding-left: 45%;
+}
+
+.box {
+display: flex;
+align-items: center;
+justify-content:left;
+min-height: 450px;
+
+
+}
+.services-main p {
+    background: #00010257;
+    margin: 15px;
+    border-radius: 8px ;
+}
+
+.services-main h5  {
+    padding-left: 35%;
+    font-size: 15px;
+}
+
+.services-main i {
+    padding-left:40% ;
+    font-size: 40px;
+    color: rgb(219, 21, 54);
+  
+}
 
 
 
